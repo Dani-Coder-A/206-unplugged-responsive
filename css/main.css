@@ -89,6 +89,45 @@ textarea {
 
 /********** General Styles **********/
 
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+
+h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.285em;
+}
+
+address {
+  font-style: normal;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -176,6 +215,7 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
 /* Aside */
@@ -192,6 +232,7 @@ aside {
 .features {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
 .features h2 {
@@ -427,7 +468,7 @@ aside .content-wrapper .form {
 }
 
 .features .features-item-description {
-  width: 50%;
+  width: 62%;
 }
 
 /* Reviews */
@@ -507,18 +548,18 @@ footer .copyright {
 
 /* General Styles */
 
+header {
+  padding: 15px 0;
+}
+
 .content-wrapper {
   max-width: 960px;
 }
 
 /* Hero Area */
 
-.hero-area .content-wrapper {
-  margin: 50px 0;
-}
-
 .hero-area h1 {
-  width: 75%;
+  width: 60%;
 }
 
 /* Aside */
@@ -543,10 +584,6 @@ aside .content-wrapper .form {
 }
 
 /* Reviews */
-
-.reviews h2 {
-  margin-bottom: 100px;
-}
 
 .reviews article div {
   width: 42%;
