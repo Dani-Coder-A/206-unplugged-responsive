@@ -127,6 +127,14 @@ p {
   line-height: 1.285em;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 address {
   font-style: normal;
 }
@@ -157,6 +165,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -226,6 +242,9 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url('../img/hero-image.jpg') center no-repeat;
+  background-size: cover;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -277,6 +296,8 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/retreat-image.jpg') center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -514,6 +535,10 @@ header nav ul {
 
 /* Hero Area */
 
+.hero-area {
+  min-height: 600px;
+}
+
 .hero-area h1 {
   font-size: 3em;
   line-height: 1;
@@ -564,6 +589,7 @@ aside .content-wrapper .form {
   width: 85%;
 }
 
+.reviews article figure,
 .reviews article div {
   width: 49%;
 }
@@ -685,7 +711,7 @@ p {
 
 .hero-area h1 {
   font-size: 3.75em;
-  width: 60%;
+  width: 80%;
 }
 
 /* Aside */
